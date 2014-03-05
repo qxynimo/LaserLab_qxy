@@ -25,6 +25,9 @@
     <Filter Include="Resource Files\Equipments_Image">
       <UniqueIdentifier>{a01d8d67-1e7a-492d-85bb-cf101ec000cf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\LevelScreen">
+      <UniqueIdentifier>{43aedc95-3cb8-420b-a79e-9afa8a54b739}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Equipment.h">
@@ -75,6 +78,12 @@
     <ClInclude Include="ButtonManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="LevelInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelSelectScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Equipment.cpp">
@@ -113,9 +122,6 @@
     <ClCompile Include="MenuScreen.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="LevelManager.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="GameScreen.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -123,6 +129,15 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ButtonManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelSelectScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -162,6 +177,48 @@
     </None>
     <None Include="Equipments_Image\Target_Hit.png">
       <Filter>Resource Files\Equipments_Image</Filter>
+    </None>
+    <None Include="Level\level_2.txt">
+      <Filter>Resource Files\Level</Filter>
+    </None>
+    <None Include="Level\level_1_info.txt">
+      <Filter>Resource Files\Level</Filter>
+    </None>
+    <None Include="Level\level_2_info.txt">
+      <Filter>Resource Files\Level</Filter>
+    </None>
+    <None Include="Level\level_equipment_2.txt">
+      <Filter>Resource Files\Level</Filter>
+    </None>
+    <None Include="LevelScreen\level1_button.png">
+      <Filter>Resource Files\LevelScreen</Filter>
+    </None>
+    <None Include="LevelScreen\level2_button.png">
+      <Filter>Resource Files\LevelScreen</Filter>
+    </None>
+    <None Include="LevelScreen\lock.png">
+      <Filter>Resource Files\LevelScreen</Filter>
+    </None>
+    <None Include="LevelScreen\one_star.png">
+      <Filter>Resource Files\LevelScreen</Filter>
+    </None>
+    <None Include="LevelScreen\three_star.png">
+      <Filter>Resource Files\LevelScreen</Filter>
+    </None>
+    <None Include="LevelScreen\two_star.png">
+      <Filter>Resource Files\LevelScreen</Filter>
+    </None>
+    <None Include="LevelScreen\zero_star.png">
+      <Filter>Resource Files\LevelScreen</Filter>
+    </None>
+    <None Include="Images\clear_button.png">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="Images\go_back.png">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="Images\level_select.png">
+      <Filter>Resource Files\Images</Filter>
     </None>
   </ItemGroup>
 </Project>
