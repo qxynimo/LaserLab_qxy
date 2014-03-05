@@ -35,9 +35,6 @@ void ButtonManager::update(sf::RenderWindow& window)
 				break;
 			}
 		}
-		
-		
-
 	}
 }
 
