@@ -17,6 +17,7 @@
 
 extern int curr_level;
 extern int currentScore;
+extern  std::string user_curr_level;
 
 class GameScreen : public Screen
 {
@@ -40,8 +41,10 @@ private:
 	void calculatePath();
 	void drawLaser(sf::RenderWindow& window);
 	void drawEnd(sf::RenderWindow& window);
+	void drawScore(sf::RenderWindow& window);
 	ToolManager tool_manager;
 	std::vector<std::vector<Photon>> lightPaths;
+	std::vector<sf::Sprite> equipments_money;
 	ButtonManager buttonManager_game;
 	ButtonManager buttonManager_end;
 	UserButton clearButton;
@@ -54,6 +57,14 @@ private:
 	sf::Texture three_star;
 	sf::Texture transparent_background;
 	sf::Texture congratulation;
+	sf::Texture background;
+	sf::Sprite backgroundSp;
+	sf::Font font;
+	sf::Texture mirror_money;
+	sf::Texture splitter_money;
+	sf::Texture filter_red_money;
+	sf::Texture filter_blue_money;
+	std::vector<std::vector<Photon>> capLightPaths;
 
 
 };
